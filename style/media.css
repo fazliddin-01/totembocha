@@ -1,0 +1,450 @@
+@media (max-width: 1320px) {
+    .sell_box {
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+      padding: 0px 15px 15px 0px;
+    }
+    .sell_card {
+      flex-shrink: 0;
+      box-shadow: 4px 4px 10px 0px #d1d1d1;
+    }
+    .again {
+      display: none;
+    }
+    .news_box {
+      overflow-x: scroll;
+    }
+    .news_card {
+      flex-shrink: 0;
+    }
+    .footer_box {
+      gap: 190px;
+    }
+  }
+  
+  @media (max-width: 1300px) {
+    .intro_box {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    .intro_left {
+      flex-direction: row;
+    }
+  }
+  @media (max-width: 1200px) {
+    .footer_box {
+      gap: 140px;
+    }
+  
+    .news_title {
+      line-height: 100%;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .news_text {
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .icon1,
+    .icon2,
+    .icon3,
+    .lang {
+      display: none;
+    }
+    label {
+      display: block;
+    }
+    .close {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+    }
+    .menu1 {
+      order: -1;
+    }
+    .menu {
+      background: none;
+    }
+    .nav_list {
+      flex-direction: column;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: #000;
+      opacity: 0.8;
+      z-index: 99;
+      padding: 50px;
+      text-align: center;
+      justify-content: center;
+      height: 100%;
+      transition: 0.5s;
+      transform: translateX(-110%);
+    }
+    .nav_link {
+      color: white;
+    }
+    .header {
+      position: relative;
+      overflow: hidden;
+    }
+  
+    #check:checked ~ .nav_list {
+      transform: translate(0);
+    }
+  }
+  @media (max-width: 1100px) {
+    .intro {
+      margin-top: 15px;
+    }
+    .intro_box {
+      flex-direction: row;
+      justify-content: flex-start;
+      overflow-x: scroll;
+      padding: 0px 15px 15px 0px;
+    }
+    .intro_right {
+      width: 526px;
+      padding: 0;
+      flex-shrink: 0;
+      min-height: 294px;
+      box-shadow: 4px 4px 10px 0px #d1d1d1;
+    }
+    .intro_img {
+      width: 140px;
+    }
+    .intro_card {
+      flex-shrink: 0;
+      min-height: 294px;
+      padding: 0;
+      box-shadow: 4px 4px 10px 0px #d1d1d1;
+    }
+    .discount,
+    .intro_right::after,
+    .intro_card::after {
+      top: 15px;
+      left: 15px;
+      font-size: 20px;
+      padding: 8px 30px;
+    }
+    .nav_list {
+      padding: 15px;
+      gap: 25px;
+    }
+    .nav_link {
+      color: white;
+    }
+    .close {
+      width: 22px;
+    }
+    .footer__box {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .footer__tel {
+      justify-content: center;
+    }
+    
+    .footer__title-2 {
+      margin-bottom: 10px;
+      margin-top: 15px;
+    }
+  
+    .footer__gmail {
+      justify-content: center;
+    }
+  
+    .footer {
+      margin-top: 40px;
+      padding: 70px 0px;
+    }
+    
+    .footer__3{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  @media (max-width: 1000px) {
+    .footer_list,
+    .footer_text_box {
+      margin-top: 30px;
+      gap: 10px;
+    }
+    .footer_subtitle {
+      margin-top: 40px;
+    }
+    .footer {
+      margin-top: 30px;
+      padding: 50px 0px;
+    }
+    .news_box {
+      margin-top: 30px;
+    }
+    .news_card {
+      width: 590px;
+      height: 430px;
+      gap: 20px;
+    }
+    .news_icon {
+      margin-top: 50px;
+    }
+    .news_card::after {
+      font-size: 18px;
+      padding: 10px 25px;
+    }
+  }
+  @media (max-width: 800px) {
+    .footer {
+      padding: 40px 0px 20px 0px;
+    }
+    .sell_card {
+      padding: 60px 0px 30px 0px;
+      width: 380px;
+    }
+    .sell_img {
+      width: 180px;
+    }
+    .title {
+      font-size: 25px;
+      padding-bottom: 15px;
+    }
+    .sell {
+      margin-top: 30px;
+    }
+    .footer__title {
+      font-size: 28px;
+    }
+    .footer__title-2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      margin-top: 15px;
+    }
+    .footer__link {
+      font-size: 15px;
+    }
+    .footer__text {
+      font-size: 15px;
+    }
+    .footer__tel a {
+      font-size: 15px;
+    }
+  
+    .footer__gmail {
+      font-size: 15px;
+    }
+  }
+  @media (max-width: 700px) {
+    .sell {
+      margin-top: 20px;
+    }
+    .sell_box {
+      margin-top: 30px;
+    }
+    .intro_right::after,
+    .intro_card::after,
+    .discount {
+      padding: 8px 25px;
+      font-size: 18px;
+    }
+    .sell_card::after {
+      padding: 13px 13px 9px 13px;
+    }
+    .sell_card::before {
+      padding: 13px 13px 9px 13px;
+      top: 80px;
+    }
+    .sell_text,
+    .sell_title {
+      font-size: 18px;
+    }
+    .sell_card {
+      padding: 50px 0px 25px 0px;
+      width: 350px;
+    }
+    .sell_img {
+      width: 150px;
+    }
+    .intro_card,
+    .intro_right {
+      width: 460px;
+      min-height: 250px;
+    }
+    .intro_img {
+      width: 100px;
+    }
+    .intro_text_box {
+      gap: 10px;
+    }
+    .nav_logo img {
+      width: 150px;
+    }
+    .title {
+      font-size: 22px;
+    }
+    .news_title {
+      font-size: 20px;
+    }
+    .news_text {
+      font-size: 16px;
+      line-height: 120%;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .news_card {
+      width: 550px;
+      height: 400px;
+      padding: 60px 60px 60px 60px;
+    }
+    .news_icon {
+      margin-top: 30px;
+    }
+    .news_box {
+      margin-top: 20px;
+    }
+  }
+  @media (max-width: 600px) {
+    .news_card {
+      width: 500px;
+      height: 380px;
+      padding: 60px 60px 60px 60px;
+    }
+    .news_card::after {
+      font-size: 16px;
+      padding: 8px 20px;
+    }
+  }
+  @media (max-width: 550px) {
+    .title {
+      /* font-size: 25px; */
+      padding-bottom: 8px;
+    }
+    .news_box {
+      margin-top: 15px;
+    }
+    .news_card {
+      width: 430px;
+      height: 340px;
+      padding: 60px 60px 60px 60px;
+    }
+    .sell {
+      margin-top: 10px;
+    }
+    .sell_box {
+      margin-top: 20px;
+    }
+    .sell_text,
+    .sell_title {
+      font-size: 16px;
+    }
+    .intro_card,
+    .intro_right {
+      width: 430px;
+      min-height: 250px;
+    }
+    .nav_box {
+      padding-bottom: 15px;
+    }
+    .nav_logo img {
+      width: 140px;
+    }
+    .sell_card {
+      padding: 50px 0px 25px 0px;
+      width: 320px;
+    }
+    .sell_img {
+      width: 130px;
+    }
+    .intro_right::after,
+    .intro_card::after,
+    .discount {
+      padding: 8px 20px;
+      font-size: 16px;
+      top: 5px;
+      left: 5px;
+    }
+    .sell_card::after {
+      padding: 11px 11px 7px 11px;
+    }
+    .sell_card::before {
+      padding: 11px 11px 7px 11px;
+      top: 75px;
+    }
+    .sell_text_box {
+      gap: 10px;
+    }
+  }
+  @media (max-width: 450px) {
+    .news_card::after {
+      font-size: 14px;
+      padding: 7px 18px;
+      top: 5px;
+      left: 5px;
+    }
+    .sell_card {
+      padding: 50px 0px 25px 0px;
+      width: 290px;
+    }
+    .nav_logo img {
+      width: 120px;
+    }
+    .sell_img {
+      width: 110px;
+    }
+    .intro_card {
+      width: 390px;
+      min-height: 240px;
+    }
+    
+    .news_card {
+      width: 390px;
+      height: 300px;
+      padding: 30px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .news_card::after {
+      font-size: 14px;
+      padding: 5px 13px;
+      top: 5px;
+      left: 5px;
+    }
+    .sell_card {
+      padding: 35px 0px 18px 0px;
+      width: 250px;
+    }
+    .nav_logo img {
+      width: 100px;
+    }
+    .sell_img {
+      width: 95px;
+    }
+    .intro_card {
+      width: 340px;
+      min-height: 240px;
+    }
+    
+    .news_card {
+      width: 340px;
+      height: 280px;
+      padding: 25px;
+    }
+    
+    .footer__title-2 {
+      font-size: 18px;
+      margin-bottom: 10px;
+      margin-top: 15px;
+    }
+    
+    .footer__link {
+      font-size: 13px;
+    }
+  }
